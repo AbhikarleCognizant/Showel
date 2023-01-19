@@ -18,6 +18,7 @@ public static void main(String[] args) throws Throwable {
 	File desk = t.getScreenshotAs(OutputType.FILE);
 	File src=new File("C:\\Users\\abhij\\OneDrive\\Desktop\\mock\\facebook.jpg");
 	Files.copy(desk, src);
+	System.out.println("This is GitHub");
 	
 }
 }
